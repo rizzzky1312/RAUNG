@@ -1,0 +1,348 @@
+media:
+  input: images
+  output: images
+content:
+- name: kontak
+  label: Kontak (semua halaman)
+  type: file
+  path: content/kontak.json
+  format: json
+  fields:
+  - name: whatsapp
+    label: Nomor WhatsApp (format 62..., angka saja)
+    type: string
+  - name: pesanWA
+    label: Pesan otomatis WhatsApp
+    type: string
+  - name: alamat
+    label: Alamat lengkap
+    type: text
+  - name: maps
+    label: Link Google Maps (https://...)
+    type: string
+  - name: jamBuka
+    label: Jam operasional
+    type: string
+- name: index
+  label: Halaman Home
+  type: file
+  path: content/index.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: paragraf1
+    label: Paragraf 1
+    type: text
+  - name: fotoSamping
+    label: Foto samping
+    type: image
+  - name: pengantar
+    label: Teks pengantar bagian
+    type: text
+  - name: items
+    label: Kotak foto
+    type: object
+    list: true
+    fields:
+    - name: label
+      label: Label kecil
+      type: string
+    - name: judul
+      label: Judul
+      type: string
+    - name: foto
+      label: Foto
+      type: image
+    - name: link
+      label: 'Halaman tujuan (contoh: menu.html)'
+      type: string
+- name: about
+  label: Halaman About Us
+  type: file
+  path: content/about.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: paragraf1
+    label: Paragraf 1
+    type: text
+  - name: paragraf2
+    label: Paragraf 2
+    type: text
+  - name: fotoSamping
+    label: Foto samping
+    type: image
+- name: menu
+  label: Halaman Menu & Drinks
+  type: file
+  path: content/menu.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: pengantar
+    label: Teks pengantar bagian
+    type: text
+  - name: items
+    label: Daftar menu
+    type: object
+    list: true
+    fields:
+    - name: nama
+      label: Nama
+      type: string
+    - name: deskripsi
+      label: Deskripsi
+      type: text
+    - name: harga
+      label: 'Harga (contoh: Rp ...)'
+      type: string
+- name: coworking
+  label: Halaman Coworking Space
+  type: file
+  path: content/coworking.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: paragraf1
+    label: Paragraf 1
+    type: text
+  - name: fotoSamping
+    label: Foto samping
+    type: image
+- name: hangout
+  label: Halaman Hangout Space
+  type: file
+  path: content/hangout.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: pengantar
+    label: Teks pengantar bagian
+    type: text
+  - name: items
+    label: Kotak foto
+    type: object
+    list: true
+    fields:
+    - name: label
+      label: Label kecil
+      type: string
+    - name: judul
+      label: Judul
+      type: string
+    - name: foto
+      label: Foto
+      type: image
+    - name: link
+      label: 'Halaman tujuan (contoh: menu.html)'
+      type: string
+- name: events
+  label: Halaman Events & Community
+  type: file
+  path: content/events.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: pengantar
+    label: Teks pengantar bagian
+    type: text
+  - name: items
+    label: Daftar acara
+    type: object
+    list: true
+    fields:
+    - name: kategori
+      label: Kategori
+      type: string
+    - name: judul
+      label: Judul
+      type: string
+    - name: deskripsi
+      label: Deskripsi
+      type: text
+- name: gallery
+  label: Halaman Gallery
+  type: file
+  path: content/gallery.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+  - name: catatan
+    label: Catatan di bawah foto
+    type: string
+  - name: items
+    label: Foto galeri
+    type: object
+    list: true
+    fields:
+    - name: foto
+      label: Foto
+      type: image
+- name: contact
+  label: Halaman Location & Contact
+  type: file
+  path: content/contact.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Teks kecil di atas judul
+    type: string
+  - name: miringBarisBaru
+    label: Kata miring mulai di baris baru
+    type: boolean
+  - name: judulAwal
+    label: 'Judul: bagian awal'
+    type: text
+  - name: judulMiring
+    label: 'Judul: kata miring'
+    type: string
+  - name: judulAkhir
+    label: 'Judul: bagian akhir'
+    type: text
+  - name: deskripsi
+    label: Deskripsi atas
+    type: text
+  - name: fotoUtama
+    label: Foto utama
+    type: image
+ 
