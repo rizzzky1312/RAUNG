@@ -1,0 +1,42 @@
+{
+  "eyebrow": "SIP • TASTE • ENJOY",
+  "judulAwal": "GOOD TASTE.",
+  "judulMiring": "GOOD MOOD.",
+  "judulAkhir": "",
+  "miringBarisBaru": true,
+  "deskripsi": "Temukan minuman dan makanan favoritmu di RAUNG.",
+  "fotoUtama": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=1800&q=85",
+  "pengantar": "Daftar di bawah merupakan kategori contoh. Menu, deskripsi, dan harga resmi dapat diperbarui setelah tersedia.",
+  "items": [
+    {
+      "nama": "Espresso Based",
+      "deskripsi": "Espresso, Americano, Latte, Cappuccino",
+      "harga": ""
+    },
+    {
+      "nama": "Signature Coffee",
+      "deskripsi": "Racikan khas RAUNG! SPACE",
+      "harga": ""
+    },
+    {
+      "nama": "Non-Coffee",
+      "deskripsi": "Minuman segar tanpa kopi",
+      "harga": ""
+    },
+    {
+      "nama": "Tea & Refreshment",
+      "deskripsi": "Teh dan pilihan minuman menyegarkan",
+      "harga": ""
+    },
+    {
+      "nama": "Light Bites",
+      "deskripsi": "Camilan untuk teman ngobrol",
+      "harga": ""
+    },
+    {
+      "nama": "Main Course",
+      "deskripsi": "Menu makanan untuk mengisi energi",
+      "harga": ""
+    }
+  ]
+}

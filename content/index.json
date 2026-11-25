@@ -1,0 +1,56 @@
+{
+  "eyebrow": "COFFEE SHOP • COWORKING SPACE • HANGOUT PLACE",
+  "judulAwal": "COFFEE.",
+  "judulMiring": "Work.",
+  "judulAkhir": "CONNECT.",
+  "miringBarisBaru": true,
+  "deskripsi": "A place to enjoy coffee, get things done, and connect with people. Selamat datang di ruang untuk menikmati harimu dengan cara sendiri.",
+  "fotoUtama": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1900&q=85",
+  "paragraf1": "RAUNG! SPACE adalah ruang untuk menikmati kopi, bekerja dengan nyaman, bertemu teman, dan membangun koneksi.",
+  "fotoSamping": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=85",
+  "pengantar": "Pilih pengalaman yang paling cocok untuk harimu.",
+  "items": [
+    {
+      "label": "01 / OUR STORY",
+      "judul": "About Us",
+      "foto": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80",
+      "link": "about.html"
+    },
+    {
+      "label": "02 / TASTE",
+      "judul": "Menu & Drinks",
+      "foto": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=700&q=80",
+      "link": "menu.html"
+    },
+    {
+      "label": "03 / FOCUS",
+      "judul": "Coworking Space",
+      "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80",
+      "link": "coworking.html"
+    },
+    {
+      "label": "04 / RELAX",
+      "judul": "Hangout Space",
+      "foto": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80",
+      "link": "hangout.html"
+    },
+    {
+      "label": "05 / COMMUNITY",
+      "judul": "Events & Community",
+      "foto": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=700&q=80",
+      "link": "events.html"
+    },
+    {
+      "label": "06 / MOMENTS",
+      "judul": "Gallery",
+      "foto": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=700&q=80",
+      "link": "gallery.html"
+    },
+    {
+      "label": "07 / VISIT US",
+      "judul": "Location & Contact",
+      "foto": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80",
+      "link": "contact.html"
+    }
+  ]
+}

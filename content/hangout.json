@@ -1,0 +1,30 @@
+{
+  "eyebrow": "SLOW DOWN • CATCH UP",
+  "judulAwal": "YOUR SPACE TO",
+  "judulMiring": "UNWIND.",
+  "judulAkhir": "",
+  "miringBarisBaru": true,
+  "deskripsi": "Tempat bertemu teman, menikmati waktu santai, dan membuat momen.",
+  "fotoUtama": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85",
+  "pengantar": "Pilih sudut favorit untuk ngobrol, menikmati kopi, atau sekadar rehat dari rutinitas.",
+  "items": [
+    {
+      "label": "01 / COMFORT",
+      "judul": "Cozy Corner",
+      "foto": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80",
+      "link": "gallery.html"
+    },
+    {
+      "label": "02 / TOGETHER",
+      "judul": "Gathering Area",
+      "foto": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80",
+      "link": "gallery.html"
+    },
+    {
+      "label": "03 / GOOD VIBES",
+      "judul": "Everyday Escape",
+      "foto": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=700&q=80",
+      "link": "gallery.html"
+    }
+  ]
+}

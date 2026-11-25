@@ -1,0 +1,32 @@
+{
+  "eyebrow": "PEOPLE • IDEAS • EXPERIENCES",
+  "judulAwal": "MEET. SHARE.",
+  "judulMiring": "CREATE.",
+  "judulAkhir": "",
+  "miringBarisBaru": true,
+  "deskripsi": "Ruang untuk komunitas, kolaborasi, dan pengalaman bersama.",
+  "fotoUtama": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1800&q=85",
+  "pengantar": "Agenda berikut adalah contoh jenis kegiatan, bukan jadwal acara yang sudah dikonfirmasi.",
+  "items": [
+    {
+      "kategori": "COMMUNITY",
+      "judul": "Community Gathering",
+      "deskripsi": "Tempat bertemu, berbagi cerita, dan memperluas koneksi."
+    },
+    {
+      "kategori": "CREATIVE SPACE",
+      "judul": "Workshop & Collaboration",
+      "deskripsi": "Ruang untuk belajar hal baru dan mengembangkan ide bersama."
+    },
+    {
+      "kategori": "MUSIC",
+      "judul": "Live Session",
+      "deskripsi": "Menikmati suasana dan pertunjukan musik bersama."
+    },
+    {
+      "kategori": "PRIVATE EVENT",
+      "judul": "Gathering & Meetup",
+      "deskripsi": "Hubungi tim RAUNG untuk menanyakan kemungkinan penggunaan ruang."
+    }
+  ]
+}

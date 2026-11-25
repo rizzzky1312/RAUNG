@@ -1,0 +1,30 @@
+{
+  "eyebrow": "THE RAUNG MOMENTS",
+  "judulAwal": "TAKE A",
+  "judulMiring": "LOOK AROUND.",
+  "judulAkhir": "",
+  "miringBarisBaru": true,
+  "deskripsi": "Suasana, detail, dan momen di RAUNG! SPACE.",
+  "fotoUtama": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1800&q=85",
+  "catatan": "Foto saat ini merupakan gambar ilustrasi. Foto asli RAUNG dapat menggantikannya nanti.",
+  "items": [
+    {
+      "foto": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "foto": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=700&q=80"
+    },
+    {
+      "foto": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80"
+    },
+    {
+      "foto": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=700&q=80"
+    },
+    {
+      "foto": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80"
+    },
+    {
+      "foto": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=700&q=80"
+    }
+  ]
+}
